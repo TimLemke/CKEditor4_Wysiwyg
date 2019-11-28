@@ -1,0 +1,21 @@
+﻿@model SeventyeightDigital.CKEditor4_Wysiwyg.CKEditor4_WysiwygViewModel
+
+@using (Html.Kentico().BeginInlineEditor("text-editor", Model.PropertyName,
+    new
+    {
+        @class = "inline-editor text-editor-" + Model.myID.ToString(),
+        @id = "editor" + Model.myID.ToString(),
+        @contenteditable = true,
+        data_divid = Model.myID.ToString()
+    }))
+{
+    if (Model != null && !String.IsNullOrEmpty(Model.Html))
+    {
+        @Html.Raw(Model.Html.Replace('~', ' '))
+    }
+
+    else
+    {
+        <p>Enter Content Here</p>
+    }
+}
