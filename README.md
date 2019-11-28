@@ -4,9 +4,9 @@
 
 1. Install the `SeventyeightDigital.CKEditor4_Wysiwyg.Kentico.MVC` NuGet Package to your MVC Site
 2. For ease of integration and to prevent CSS styling conflicts, a link to the CDN for CKEditor 4 must be placed before `@HTML.Kentico().PageBuilderScripts()`
-   (ckeditor-cdninclude.png)
+   ![CKEditor 4 CDN include image](ckeditor-cdninclude.png)
 3. If you wish to configure the CKEditor 4 toolbar, you can do so by editing the currently commented out toolbar configuration option found in `CKEditor4-InlineEditor.ks`
-   (ckeditor-toolbaroptions.png)
+   ![Toolbar options image](ckeditor-toolbaroptions.png)
 
 # Inline Editor
 
