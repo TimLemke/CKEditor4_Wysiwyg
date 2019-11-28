@@ -37,7 +37,7 @@ There is one widget, `CKEditor4 WYSIWYG Editor Widget` which allows for content 
 
 ![CKEditor4 Widget](CkEditor4_Wysiwyg-Demo.gif)
 
-# Contributions, but fixes and License
+# Contributions, bug fixes and license
 
 This inline editor / widget integration comes without any support whatsoever.
 
